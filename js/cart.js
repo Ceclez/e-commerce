@@ -11,3 +11,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }) ;
 })
+//Funcionamiento del carrito de compras
