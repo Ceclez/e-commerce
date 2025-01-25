@@ -1,3 +1,5 @@
+//Funcionamiento del carrito de compras
+
 document.addEventListener('DOMContentLoaded', function() {
     let cart_icon = document.querySelector('.header__icon--cart') ,
         cart_container = document.querySelector('.cart__container') ;
@@ -11,4 +13,3 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }) ;
 })
-//Funcionamiento del carrito de compras
