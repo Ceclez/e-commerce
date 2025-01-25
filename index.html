@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--RESET-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css" 
+    integrity="sha512-gCJkkUMGTe73+FMwog6gIBCVJIMXRoc21l6/IPCuzxCex/1sxvO8ctb6Zd4/WWs2UMqmtnDrAdhJht5pEY0LXg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<!--ESTILOS-->
+    <link rel="stylesheet" href="styles/styles.css">
+<!--TÍTULO-->
+    <title>E-commerce page</title>
+</head>
+
+<body>
+<!--SECCIÓN DEL HEADER, LOGO, MENÚ HAMBURGUESA Y CARRITO DE COMPRA-->
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li><ion-icon name="menu-sharp" class="header__icon header__icon--menu"></ion-icon></li>
+                <li><img src="img/Converse_logo.svg" class="header__logo" alt="logo de marca de tenis converse"></li>
+                <li><ion-icon name="cart-sharp" class="header__icon header__icon--cart"></ion-icon></li>
+            </ul>
+        </nav>
+        <section class="header__background-container">
+            <h1 class="header__title">Productos nuevos</h1>
+            <h2 class="header__subtitle">Conoce nuestros nuevos productos</h2> 
+        </section>
+    </header>
+
+<!--SECCIÓN DEL CARRITO DE COMPRA-->
+    <main>
+        <section class="products">
+            <article class="product__container">
+                <img src="img/converse-product-1.webp" class="product__img" alt="imagen de tenis marca converse">
+                <h3 class="product__title">Tenis converse clásicos</h3>
+                <p class="product__price">$1300.00 MXN</p>
+            </article>
+
+            <article class="product__container">
+                <img src="img/converse-product-2.jpg" class="product__img" alt="imagen de tenis converse color rojo">
+                <h3 class="product__title">Tenis converse rojos</h3>
+                <p class="product__price">$1300.00 MXN</p>
+            </article>
+
+            <article class="product__container">
+                <img src="img/converse-product-3.jpg" class="product__img" alt="imagen de tenis marca converse">
+                <h3 class="product__title">Camiseta Chuck Taylor</h3>
+                <p class="product__price">$1300.00 MXN</p>
+            </article>
+
+            <article class="product__container">
+                <img src="img/converse-product-4.jpg" class="product__img" alt="imagen de camiseta con logo converse Chuck Taylor">
+                <h3 class="product__title">Camiseta one star</h3>
+                <p class="product__price">$1300.00 MXN</p>
+            </article>
+
+            <article class="product__container">
+                <img src="img/converse-product-4.webp" class="product__img" alt="imagen de camiseta converse color verde">
+                <h3 class="product__title">Camiseta one star (V)</h3>
+                <p class="product__price">$1300.00 MXN</p>
+            </article>
+
+            <article class="product__container">
+                <img src="img/converse-product-5.jpg" class="product__img" alt="imagen de camiseta converse color rojo">
+                <h3 class="product__title">Camiseta one star (R)</h3>
+                <p class="product__price">$1300.00 MXN</p>
+            </article>
+
+            <article class="product__container">
+                <img src="img/converse-product-6.jpg" class="product__img" alt="imagen de camiseta para dama con tipografía converse">
+                <h3 class="product__title">Camiseta converse</h3>
+                <p class="product__price">$1300.00 MXN</p>
+            </article>
+        </section>
+
+<!--SECCIÓN DEL CARRITO DE COMPRA-->
+        <section class="cart__container">
+            <h3 class="cart__main-title">Carrito</h3>
+            <article class="cart__article">
+                <img src="img/converse-product-2.jpg" class="cart__img" alt="imagen de tenis converse color rojo">
+                <h4 class="cart__title">Tenis converse rojos</h4>
+                <p class="cart__price">$1300.00 MXN</p>
+                <i><ion-icon name="trash-sharp" class="cart__icon"></ion-icon></i>
+            </article>    
+        </section>
+    </main>
+
+<!--SECCIÓN DEL FOOTER-->
+    <footer class="footer">
+        <p>&copy; 2028 Converse México. Todos los derechos reservados</p>
+    </footer>
+
+<!--ICONOS-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!--JS-->
+    <script src="js/cart.js"></script>
+
+</body>
+</html>
